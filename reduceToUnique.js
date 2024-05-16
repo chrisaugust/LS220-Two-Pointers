@@ -39,7 +39,7 @@ function reduceToUnique(array) {
   let i = 0;
   let j = 1;
 
-  while (j < array.length - 1) {
+  while (j < array.length) {
     if (array[i] < array[j]) {
       i += 1;
       j += 1;
